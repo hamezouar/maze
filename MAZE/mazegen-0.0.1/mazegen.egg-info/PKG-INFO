@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: mazegen
+Version: 0.0.1
+Summary: package for generator maze
+Author: Mohamed Bidlal, Hamza Amezouar
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+*This project has been created as part of the 42 curriculum by [hamezoua, mbidlal].*
+
+# 🧩 A-Maze-ing: The Labyrinth Generator
+
+## 📝 Description
+**A-Maze-ing** is a Python-based interactive tool designed to generate, solve, and visualize mazes. The project features two main generation modes: **Perfect Mazes** (using Depth-First Search) and **Imperfect Mazes** (using a custom randomized algorithm). 
+
+The goal of this project was to implement a robust system that handles complex grid logic, provides an interactive CLI experience, and allows users to find the shortest path between any two points using graph traversal techniques.
+
+---
+
+## ⚙️ Instructions
+
+### 🛠️ Installation
+The project requires the `readchar` library to handle real-time keyboard inputs (capturing keys without needing to press Enter).
+
+```bash
+pip install readchar

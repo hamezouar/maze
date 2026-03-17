@@ -1,0 +1,12 @@
+# =========================================
+#            A-Maze-ing Config
+# =========================================
+WIDTH =  30
+HEIGHT = 15
+ENTRY = 3,7
+EXIT = 7,0
+OUTPUT_FILE = maze.txt
+PERFECT = true
+seed = 1337
+
+
